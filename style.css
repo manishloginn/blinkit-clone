@@ -92,7 +92,7 @@
 
 .yehkrna {
     display: flex;
-    width: 76vw;
+    width: 75vw;
     overflow-x: scroll;
     overflow-y: scroll;
 }
@@ -111,6 +111,31 @@
     flex-wrap: wrap;
     padding: 0px 0px 0px 50px;
     
+}
+
+#final {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    padding-top: 20px;
+
+}
+
+section h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+
+
+.final {
+    display: flex;
+    width: 75vw;
+    overflow-x: scroll;
+    overflow-y: scroll;
 }
 
 
