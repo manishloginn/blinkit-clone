@@ -57,6 +57,14 @@
     font-weight: 700px;
 }
 
+.iyUoPU {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-family: CustomFont;
+    margin-right: 8px;
+}
+
+
 
 .buttonn {
     display: flex;
@@ -69,24 +77,28 @@
 }
 
 .imgg {
-    
-    padding: 15px;
     display: flex;
     justify-content: center;
-    
+    align-items: center;  
 }
-
 
 #yehkrna {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    justify-content: center ;
+
 }
 
-.scroal {
-    flex-wrap: nowrap;
+
+.yehkrna {
+    display: flex;
+    width: 76vw;
+    overflow-x: scroll;
+    overflow-y: scroll;
 }
+
+
+
 
 
 
