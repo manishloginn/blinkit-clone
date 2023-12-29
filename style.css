@@ -6,10 +6,10 @@
 
 
 #navbar {
-    width: 100vw;
+    
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+   justify-content: space-between;
+    width: 100vw;
     padding: 20px;
     -webkit-box-shadow: 0 2px 5px -5px black;
        -moz-box-shadow: 0 2px 5px -5px black;
@@ -21,6 +21,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.texttt {
+    text-decoration: none;
+    font-weight: 600;
+
 }
 
 .searchh {
@@ -57,89 +63,124 @@
     font-weight: 700px;
 }
 
-.iyUoPU {
-    font-size: 28px;
-    color: rgb(255, 255, 255);
-    font-family: CustomFont;
-    margin-right: 8px;
-}
 
+.buttonn .btnnn {
+    font-size: 15px;
+    font-weight: 800;
+    background-color: rgb(12,131,31);
+}
 
 
 .buttonn {
     display: flex;
     align-items: center;
     margin: 0;
+    font-size: 500px;
 }
 
 .btn {
     margin-right: 20px;
+
 }
 
 .imgg {
     display: flex;
     justify-content: center;
     align-items: center;  
-}
-
-#yehkrna {
-    display: flex;
-    align-items: center;
-    justify-content: center ;
-
-}
-
-
-.yehkrna {
-    display: flex;
-    width: 75vw;
-    overflow-x: scroll;
-    overflow-y: scroll;
+    width: 100vw;
 }
 
 
 
 #product {
-    display: flex;
-    justify-content: center;
-    
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
 }
 
 .product {
-    display: inline-flex;
-    width: 80vw;
-    flex-wrap: wrap;
-    padding: 0px 0px 0px 50px;
-    
-}
-
-#final {
-    display: flex;
-    align-items: center;
-    justify-content: center ;
-    padding-top: 20px;
-
-}
-
-section h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center ;
-    padding-left: 200px;
-    padding-top: 20px;
+  display: flex;
+  
+  width: 90vw;
+  flex-wrap: wrap;  
 }
 
 
 
-.final {
+
+#yehkrna {
     display: flex;
-    width: 75vw;
+    justify-content: center;
+}
+
+
+
+.yehkrna {
+    display: flex;
+    white-space: nowrap;
+    width: 90vw;
     overflow-x: scroll;
     overflow-y: scroll;
+
 }
 
 
 
+
+
+  .scrollable_div {
+    width: 90vw;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .list {
+    white-space: nowrap;
+    overflow-x: scroll;
+    width: 100%;
+  }
+
+  .my-card {
+    width: 180px;
+    margin-right: 20px;
+    display: inline-block !important;
+  }
+
+  .my-card > img {
+    margin: auto;
+  }
+  
+
+  
+  .product_name {
+    font-size: 14px;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  
+  .product_weight {
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+  }
+  
+  .product_price {
+    margin: 0;
+    padding: 0 !important;
+    font-weight: 600;
+  }
+
+  #footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+  }
+
+  .footer {
+    font-weight: 600;
+  }
 
 
 
